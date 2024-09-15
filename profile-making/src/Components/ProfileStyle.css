@@ -1,0 +1,135 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.gradient_background {
+    background: linear-gradient(215deg, #0062ff, #da61ff);
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 70vh;
+    width: 70vw;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.header-half {
+    border-radius: 2px;
+    height: 25vh;
+    width: 100%;
+    background: linear-gradient(90deg, #402565, #30be96);
+    position: relative; 
+}
+
+.img-outline img {
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    position: absolute;
+    top: calc(25vh - 44px); 
+    left: 20px; 
+}
+.profile-card-social{
+    display: flex;
+    justify-content:flex-end;
+    align-items:end;
+    gap: 30px;
+    right: 20px;
+    /* flex-wrap: wrap; */
+    margin-top: 146px;
+    padding: 5px;
+}
+.profile-card-social__item.instagram{
+    color: #9369cf;
+    /* box-shadow: 0px 4px 30px rgba(120, 64, 190, 0.6); */
+    /* background: linear-gradient(45deg, #405de6, #5851db, #833ab4); */
+}
+.profile-card-social__item.instagram:hover {
+    color: #6d1cca; /* Change text color on hover */
+    box-shadow: 0px 6px 40px rgba(120, 64, 190, 0.8); /* Increase shadow on hover */
+   
+}
+.profile-card-social__item.twitter{
+    color: #1c1c1a;
+    /* box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.7); */
+    /* background: linear-gradient(45deg, #1da1f2, #0e71c8); */
+}
+.profile-card-social__item.twitter:hover {
+    color: #585252; /* Change text color on hover */
+    box-shadow: 0px 6px 40px rgba(19, 127, 212, 0.9); /* Increase shadow on hover */
+    /* background: linear-gradient(45deg, #0e71c8, #1da1f2); /* Change gradient on hover */
+} */
+    .profile-card-social__item.linkedin {
+        color: #156cc3;
+        /* box-shadow: 0px 4px 30px rgba(0, 119, 181, 0.6); */
+        /* background: linear-gradient(45deg, #0077b5, #00a0dc, #0096d6); */
+    }
+
+.profile-card-social__item.linkedin:hover {
+    color: #2115ca; /* Change text color on hover */
+    box-shadow: 0px 6px 40px rgba(0, 119, 181, 0.8); /* Increase shadow on hover */
+    /* background: linear-gradient(45deg, #00a0dc, #0077b5, #0096d6); */
+}
+    
+
+.outline-name 
+
+{
+    position: absolute;
+    top: calc(25vh + 10px); 
+    left: 140px; 
+}
+
+.outline-name h3 {
+    color: #d8d03b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    margin: 0;
+}
+
+.outline-name_location {
+    position: absolute;
+    top: calc(25vh + 40px); 
+    left: 140px;
+}
+
+.outline-name_location strong {
+    color: #000;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 14px;
+}
+
+.profile_about {
+    font-size: 13px;
+    font-weight: 450;
+    color: #324e63;
+    position: absolute;
+    top: calc(25vh + 70px); 
+    left: 20px;
+    right: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profile_about strong {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+#info {
+    font-size: 15.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    word-wrap: break-word;
+}
